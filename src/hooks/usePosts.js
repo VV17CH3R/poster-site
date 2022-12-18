@@ -12,7 +12,6 @@ const sortedPosts = useMemo(()=>{
   return sortedPosts;
 }
 
-
 //принимает посты метод сортировки и поисковую строку.
 export const usePosts = (posts, sort, query) => {
     const sortedPosts = useSortedPosts(posts, sort);
